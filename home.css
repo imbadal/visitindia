@@ -1,7 +1,7 @@
-
 /*font icons*/
 
 @import url(http://weloveiconfonts.com/api/?family=zocial);
+
 /* zocial */
 
 [class*="zocial-"]:before {
@@ -9,149 +9,165 @@
     margin: 20px;
     color: white;
 }
+
 * {
-  margin: 0;
+    margin: 0;
 }
 
 .size {
-  font-size: 200%;
+    font-size: 200%;
 }
 
 html, body {
-  height: 100%;
-  width: auto;
-  background: url(map.jpg) no-repeat center center fixed;
-  background-size: cover;
+    height: 100%;
+    width: auto;
+    background: url(map.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 .top {
-  width: 100%;
-  height: 15%;
-  display: flex;
-  color: white;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    color: white;
 }
 
 .icon {
-  margin-top: 30px;
-  width: 55%;
-  height: auto;
+    margin-top: 30px;
+    width: 55%;
+    height: auto;
 }
 
 .menu {
-  margin-top: 15px;
-  width: 45%;
-  height: auto;
-  display: flex;
+    margin-top: 15px;
+    width: 45%;
+    height: auto;
+    display: flex;
 }
+
 ul {
-  list-style-type: none;
-  display: inline-block;
+    list-style-type: none;
+    display: inline-block;
 }
+
 
 /*3D Buttons*/
 
 button {
-  border: 0;
-  height: 50px;
-  width: 150px;
-  border-radius: 4px;
-  background: #1e2633;
-  box-shadow: 0 6px 0 #171d26;
-  color: #fff;
-  cursor: pointer;
-  font: inherit;
-  margin: 0;
-  outline: 0;
-  padding: 12px 20px;
-  transition: all .1s linear;
-  display: flex;
-  margin-right: 7px;
-  opacity: 0.5;
+    border: 0;
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+    background: #1e2633;
+    box-shadow: 0 6px 0 #171d26;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 12px 20px;
+    transition: all .1s linear;
+    display: flex;
+    margin-right: 7px;
+    opacity: 0.5;
 }
 
 button:active {
-  box-shadow: 0 2px 0 #09e222;
-  transform: translateY(3px);
-
+    box-shadow: 0 2px 0 #09e222;
+    transform: translateY(3px);
 }
+
 button:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 button:nth-child(2n) {
-  position: relative;
-  top: 15px;
+    position: relative;
+    top: 15px;
 }
+
 
 /*icon effecet*/
 
 .effect:hover {
-  box-shadow: 0 2px 0 #09e222;
-  transform: translateY(1px);
+    box-shadow: 0 2px 0 #09e222;
+    transform: translateY(1px);
 }
+
+
 /*end*/
+
 
 /*design section of logo */
 
 .title {
-  width: 100%;
-  height: 30%;
-  color: white;
+    width: 100%;
+    height: 30%;
+    color: white;
 }
 
 .logo_cointainer {
-  margin-top: 20px;
-  height: 150px;
-  width: 100%;
-  text-align: center;
+    margin-top: 20px;
+    height: 150px;
+    width: 100%;
+    text-align: center;
 }
-.logo {
-  height: 150px;
-  width: auto;
-}
-/*title section*/
-.name {
-  height: 200px;
-  color: white;
 
-  text-align: center;
+.logo {
+    height: 150px;
+    width: auto;
 }
+
+
+/*title section*/
+
+.name {
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+
 .max {
-  font-size: 900%;
+    font-size: 900%;
 }
+
 .min {
-  font-size: 400%;
-  color: #898985;
+    font-size: 400%;
+    color: #898985;
 }
+
 .color1 {
-  color: orange;
+    color: orange;
 }
 
 .color2 {
-  color: white;
+    color: white;
 }
 
 .color3 {
-  color: green;
+    color: green;
 }
+
+
 /*end*/
+
 .box {
-  margin-top: 10px;
-  box-sizing: border-box;
-  width: auto;
-  display: flex;
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
 }
 
 .box1 {
-  height: 70px;
-  width: auto;
+    height: 70px;
+    width: auto;
 }
-
-
 
 .border {
-  box-sizing: border-box;
-  border-style: groove;
-  border-color: green;
+    box-sizing: border-box;
+    border-style: groove;
+    border-color: green;
 }
+
+
 /*end*/
