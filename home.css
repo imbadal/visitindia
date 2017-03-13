@@ -20,9 +20,10 @@
 
 html, body {
     height: 100%;
-    width: auto;
-    background: url(map.jpg) no-repeat center center fixed;
+    width: 100%;
+    background: url("map.jpg") no-repeat center center fixed;
     background-size: cover;
+    background-position: center;
 }
 
 .top {
@@ -35,7 +36,6 @@ html, body {
 .icon {
     margin-top: 30px;
     width: 55%;
-    height: auto;
 }
 
 .menu {
@@ -45,18 +45,12 @@ html, body {
     display: flex;
 }
 
-ul {
-    list-style-type: none;
-    display: inline-block;
-}
-
-
 /*3D Buttons*/
 
 button {
     border: 0;
     height: 50px;
-    width: 150px;
+    width: 25%;
     border-radius: 4px;
     background: #1e2633;
     box-shadow: 0 6px 0 #171d26;
@@ -168,6 +162,7 @@ button:nth-child(2n) {
     border-style: groove;
     border-color: green;
 }
+/*responsive design */
 
 
 /*end*/
