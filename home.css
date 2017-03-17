@@ -45,6 +45,7 @@ html, body {
     display: flex;
 }
 
+
 /*3D Buttons*/
 
 button {
@@ -142,8 +143,15 @@ button:nth-child(2n) {
     color: green;
 }
 
+hr {
+  border-width: 2px;
+  border-color: rgb(96, 93, 93);
+  border-style: solid;
+}
+
 
 /*end*/
+
 
 /*responsive design */
 
