@@ -145,23 +145,6 @@ button:nth-child(2n) {
 
 /*end*/
 
-.box {
-    margin-top: 10px;
-    box-sizing: border-box;
-    width: auto;
-    display: flex;
-}
-
-.box1 {
-    height: 70px;
-    width: auto;
-}
-
-.border {
-    box-sizing: border-box;
-    border-style: groove;
-    border-color: green;
-}
 /*responsive design */
 
 
