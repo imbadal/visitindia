@@ -9,9 +9,7 @@
     margin: 20px;
     color: white;
 }
-@media screen and (max-width: 720px) {
-  /*Responsive code*/
-}
+
 * {
     margin: 0px;
 }
@@ -46,6 +44,8 @@ html, body {
     height: 15%;
     display: flex;
     color: white;
+    background-color: black;
+    opacity: 0.7;
 }
 
 .icon {
@@ -58,6 +58,7 @@ html, body {
     width: 45%;
     height: auto;
     display: flex;
+    line-height: 1em;
 }
 
 
@@ -78,8 +79,10 @@ button {
     padding: 12px 20px;
     transition: all .1s linear;
     display: flex;
+    flex-wrap: wrap;
     margin-right: 7px;
     opacity: 0.5;
+
 }
 
 button:active {
@@ -179,5 +182,86 @@ hr {
 
 /*responsive design */
 
+@media screen and (min-width: 401px) and (max-width: 750px) {
+  /*Responsive code*/
+  .max {
+      font-size: 400%;
+      clear: both;
+  }
 
+  .min {
+      font-size: 200%;
+      color: #898985;
+      clear: both;
+  }
+  .icon {
+      display: none;
+    }
+  .menu {
+      margin-top: 15px;
+      width: 100%;
+      height: auto;
+      display: flex;
+      top: 0;
+  }
+  .top {
+      width: 100%;
+      height: 30%;
+      display: grid;
+      color: white;
+  }
+  .size {
+      font-size: 200%;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  /*Responsive code*/
+  .max {
+      font-size: 200%;
+      clear: both;
+  }
+
+  .min {
+      font-size: 100%;
+      color: #898985;
+      clear: both;
+  }
+  .icon {
+      display: none;
+    }
+  .menu {
+      margin-top: 5px;
+      padding-top: 5px;
+      width: 100%;
+      height: auto;
+      display: grid;
+  }
+  .top {
+      width: 100%;
+      height: 30%;
+      display: grid;
+      color: white;
+  }
+  button {
+      border: 0;
+      height: 50px;
+      width: 100%;
+      border-radius: 4px;
+      background: #1e2633;
+      box-shadow: 0 6px 0 #171d26;
+      color: #fff;
+      cursor: pointer;
+      font: inherit;
+      transition: all .1s linear;
+      opacity: 0.5;
+      padding: 5px;
+
+  }
+  button:nth-child(2n) {
+      position: relative;
+      top: 0px;
+  }
+}
 /*end*/
