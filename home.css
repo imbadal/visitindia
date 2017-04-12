@@ -9,7 +9,9 @@
     margin: 20px;
     color: white;
 }
-
+@media screen and (max-width: 720px) {
+  /*Responsive code*/
+}
 * {
     margin: 0px;
 }
