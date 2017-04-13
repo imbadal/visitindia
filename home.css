@@ -51,14 +51,14 @@ html, body {
 .icon {
     margin-top: 30px;
     width: 55%;
+    user-select: none;
 }
 
 .menu {
     margin-top: 15px;
-    width: 45%;
+    width: 55%;
     height: auto;
     display: flex;
-    line-height: 1em;
 }
 
 
@@ -117,6 +117,7 @@ button:nth-child(2n) {
     width: 100%;
     height: auto;
     color: white;
+    user-select: none;
 }
 
 .logo_cointainer {
@@ -179,10 +180,28 @@ hr {
     padding-right: 5px;
 }
 
+/*footer*/
+
+.footer {
+  display: none;
+}
+
 
 /*responsive design */
 
-@media screen and (min-width: 401px) and (max-width: 750px) {
+
+@media screen and (min-width: 851px) and (max-width: 950px) {
+  .icon {
+      width: 40%;
+  }
+
+  .menu {
+      width: 60%;
+  }
+
+}
+
+@media screen and (min-width: 421px) and (max-width: 850px) {
   /*Responsive code*/
   .max {
       font-size: 400%;
@@ -195,7 +214,14 @@ hr {
       clear: both;
   }
   .icon {
-      display: none;
+      width: 10%;
+      display: grid;
+      order: 4;
+    }
+    .effect:hover {
+        border-radius: 20px;
+        background-color: black;
+        opacity: 1.0;
     }
   .menu {
       margin-top: 15px;
@@ -203,28 +229,34 @@ hr {
       height: auto;
       display: flex;
       top: 0;
+
   }
   .top {
       width: 100%;
-      height: 30%;
+      height: 15%;
       display: grid;
       color: white;
+      order: 1;
+
   }
   .size {
       font-size: 200%;
   }
+  .title {
+    order: 3;
+  }
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   /*Responsive code*/
   .max {
-      font-size: 200%;
+      font-size: 300%;
       clear: both;
   }
 
   .min {
-      font-size: 100%;
+      font-size: 150%;
       color: #898985;
       clear: both;
   }
@@ -240,28 +272,37 @@ hr {
   }
   .top {
       width: 100%;
-      height: 30%;
+      height: auto;
       display: grid;
       color: white;
   }
+  .title{
+    height: auto;
+  }
   button {
-      border: 0;
-      height: 50px;
+      top: 0;
+      width: 55px;
       width: 100%;
-      border-radius: 4px;
-      background: #1e2633;
-      box-shadow: 0 6px 0 #171d26;
-      color: #fff;
-      cursor: pointer;
-      font: inherit;
-      transition: all .1s linear;
-      opacity: 0.5;
-      padding: 5px;
-
+      opacity: 0.9;
+      margin-bottom: 5px;
+      font-family: sans-serif;
+      font-weight: bold;
   }
   button:nth-child(2n) {
-      position: relative;
       top: 0px;
+  }
+  .some_info{
+    display: none;
+  }
+  .footer{
+    display: flex;
+    width: 100%;
+  }
+  .size{
+    font-size: 150%;
+    width: 25%;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 }
 /*end*/
