@@ -209,9 +209,9 @@ hr {
         clear: both;
     }
     .icon {
-        width: 10%;
-        display: grid;
-        order: 4;
+        /*width: 10%;*/
+        display: none;
+        /*order: 4;*/
     }
     .effect:hover {
         border-radius: 20px;
