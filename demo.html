@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style media="screen">
+        *font icons*/ @import url(http://weloveiconfonts.com/api/?family=zocial);
+        /* zocial */
+
+        [class*="zocial-"]:before {
+            font-family: 'zocial', sans-serif;
+            margin: 20px;
+            color: white;
+        }
+
+        * {
+            margin: 0px;
+        }
+
+        .size {
+            font-size: 200%;
+        }
+
+        .top {
+            width: 100%;
+            height: 15%;
+            display: flex;
+            color: white;
+            background-color: black;
+            opacity: 0.7;
+        }
+
+        .icon {
+            margin-top: 30px;
+            width: 55%;
+            user-select: none;
+        }
+
+        .menu {
+            margin-top: 15px;
+            width: 55%;
+            height: auto;
+            display: flex;
+        }
+        /*3D Buttons*/
+
+        button {
+            border: 0;
+            height: 50px;
+            width: 25%;
+            border-radius: 4px;
+            background: #1e2633;
+            box-shadow: 0 6px 0 #171d26;
+            color: #fff;
+            cursor: pointer;
+            font: inherit;
+            margin: 0;
+            outline: 0;
+            padding: 12px 20px;
+            transition: all .1s linear;
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: 7px;
+            opacity: 0.5;
+        }
+
+        button:active {
+            box-shadow: 0 2px 0 #09e222;
+            transform: translateY(3px);
+        }
+
+        button:hover {
+            opacity: 1;
+        }
+
+        button:nth-child(2n) {
+            position: relative;
+            top: 15px;
+        }
+        /*icon effecet*/
+
+        .effect:hover {
+            box-shadow: 0 2px 0 #09e222;
+            transform: translateY(1px);
+        }
+        /*end*/
+    </style>
+    <title></title>
+</head>
+
+<body>
+    <div class="top">
+        <!-- icon fonts -->
+        <div class="icon">
+            <a class="zocial-twitter size effect"></a>
+            <a class="zocial-digg size effect"></a>
+            <a class="zocial-facebook size effect"></a>
+            <a class="zocial-googleplus size effect"></a>
+        </div>
+
+        <div class="menu">
+            <button>HOME</button>
+            <button>PLACES</button>
+            <button>GALLERY</button>
+            <button>VIDEOS</button>
+        </div>
+    </div>
+</body>
+
+</html>
